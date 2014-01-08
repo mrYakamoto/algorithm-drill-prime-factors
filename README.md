@@ -1,14 +1,14 @@
-# Algorithm Drill Prime Factors 
- 
-##Learning Competencies 
+# Algorithm Drill Prime Factors
 
-##Summary 
+##Learning Competencies
 
- We're going to write a method called `prime_factors` which calculates the prime factors of an integer.
+##Summary
 
-A number is **prime** if it is greater than 1 and no number divides it other than 1 and itself.  [Euclid](http://en.wikipedia.org/wiki/Euclid), circa 300BC, proved that every integer greater than 1 is either prime itself or the product of prime numbers, and that these **prime factors** are unique.
+We're going to write a method called `prime_factors` which calculates the prime factors of an integer.
 
-For example,
+A number is **prime** if it is greater than 1 and no number divides it other than 1 and itself. [Euclid](http://en.wikipedia.org/wiki/Euclid), circa 300BC, proved that every integer greater than 1 is either prime itself or the product of prime numbers, and that these **prime factors** are unique.
+
+For example:
 
 <p style="text-align: center">
   <span class="latex">
@@ -27,16 +27,16 @@ This fact is important enough to be called the [fundamental theorem of arithmeti
 
 ## Learning Goals
 
-* Using pseudocode effectively to model problem-solving
-* Looping and Control
+* Use pseudocode effectively to model problem-solving
+* Use looping to [control flow](http://en.wikipedia.org/wiki/Control_flow}.
 
 ## Objectives
 
-### Write a prime_factors method
+### Write a prime_factors method.
 
 Write a method `prime_factors` that takes an integer `n` and returns an array of the prime factors of `n`.
 
-A prime number can only be divided by itself and "1".  (Keep in mind that "1" is not considered a prime number - see below for examples of expectations).
+A prime number can only be divided by itself and "1". (Keep in mind that "1" is not considered a prime number - see below for examples of expectations).
 
 ```ruby
 prime_factors(3)         # => [3]
@@ -46,11 +46,11 @@ prime_factors(25)        # => [5,5]
 prime_factors(123123123) # => [3, 3, 41, 333667]
 ```
 
-Use pseudocode!  Make sure you are clear on how you would calculate the prime factors yourself, and use this as a process to guide your code. 
+Use pseudocode! Make sure you are clear on how you would calculate the prime factors yourself, and use this as a process to guide your code.
 
 ##Releases
-###Release 0 
+###Release 0
 
-##Optimize Your Learning 
+##Optimize Your Learning
 
 ##Resources
