@@ -2,6 +2,9 @@
 
 ##Learning Competencies
 
+* Use pseudocode effectively to model problem-solving
+* Use looping
+
 ##Summary
 
 We're going to write a method called `prime_factors` which calculates the prime factors of an integer.
@@ -10,29 +13,16 @@ A number is **prime** if it is greater than 1 and no number divides it other tha
 
 For example:
 
-<p style="text-align: center">
-  <span class="latex">
-    \begin{aligned}
-            873 & = 3 \cdot 3 \cdot 97 \\
-          12056 & = 2 \cdot 2 \cdot 2 \cdot 11 \cdot 137 \\
-      123123123 & = 3 \cdot 3 \cdot 41 \cdot 333667
-    \end{aligned}
-  </span>
-</p>
-
+```script
+      873  = 3 * 3 * 97 
+    12056  = 2 * 2 * 2 * 11 * 137 
+123123123  = 3 * 3 * 41 * 333667
+```
 This fact is important enough to be called the [fundamental theorem of arithmetic](http://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic).
 
-## External Resources
-* [Prime numbers on Wikipedia](http://en.wikipedia.org/wiki/Prime_number)
+##Releases
 
-## Learning Goals
-
-* Use pseudocode effectively to model problem-solving
-* Use looping to [control flow](http://en.wikipedia.org/wiki/Control_flow}.
-
-## Objectives
-
-### Write a prime_factors method.
+###Release 0 : Write a prime_factors method.
 
 Write a method `prime_factors` that takes an integer `n` and returns an array of the prime factors of `n`.
 
@@ -48,9 +38,8 @@ prime_factors(123123123) # => [3, 3, 41, 333667]
 
 Use pseudocode! Make sure you are clear on how you would calculate the prime factors yourself, and use this as a process to guide your code.
 
-##Releases
-###Release 0
-
-##Optimize Your Learning
-
+<!-- ##Optimize Your Learning
+ -->
 ##Resources
+* [Prime numbers on Wikipedia](http://en.wikipedia.org/wiki/Prime_number)
+* [control flow](http://en.wikipedia.org/wiki/Control_flow)
