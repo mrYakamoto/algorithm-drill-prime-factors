@@ -26,7 +26,9 @@ This fact is important enough to be called the [fundamental theorem of arithmeti
 
 Write a method `prime_factors` that takes an integer `n` and returns an array of the prime factors of `n`.
 
-A prime number can only be divided by itself and "1". (Keep in mind that "1" is not considered a prime number - see below for examples of expectations).
+A prime number can only be divided by itself and "1". (Keep in mind that "1" is not considered a prime number).
+
+You'll need to write tests too, so create a spec file and add tests. Here are a few expected results to get you started.
 
 ```ruby
 prime_factors(3)         # => [3]
@@ -38,8 +40,6 @@ prime_factors(123123123) # => [3, 3, 41, 333667]
 
 Use pseudocode! Make sure you are clear on how you would calculate the prime factors yourself, and use this as a process to guide your code.
 
-<!-- ##Optimize Your Learning
- -->
 ##Resources
 * [Prime numbers on Wikipedia](http://en.wikipedia.org/wiki/Prime_number)
 * [control flow](http://en.wikipedia.org/wiki/Control_flow)
